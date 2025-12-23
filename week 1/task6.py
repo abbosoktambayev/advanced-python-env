@@ -11,6 +11,6 @@ elif op == "-":
 elif op == "*":
     print("Result:", a * b)
 elif op == "/":
-    print("Division by zero is not allowed!" if b == 0 else "Result: " + str(a / b))
+    print("Result: ", a / b)
 else:
     print("Invalid operation. Please enter +, -, *, or /.")
